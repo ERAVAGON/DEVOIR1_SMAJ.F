@@ -86,3 +86,37 @@ nav .onglets a {
     height:100%;
     width:400px;
 }
+
+footer {
+    margin-top:40px;
+    border-top: 5px solid #6f6f6f;
+    background-color:black;
+    color:white;
+    padding: 30px 100px;
+    text-align:center;
+}
+
+footer .MENU {
+    margin-top: -10px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content:center;
+}
+
+footer .MENU .MENU a {
+    margin-right: 30px;
+    padding:10px;
+    font-size: xx-large;
+    color:white;
+    text-decoration: none;
+}
+
+footer .mon_logo {
+    width:50px;
+}
+
+footer #contact {
+    color:grey;
+    vertical-align:middle;
+}
