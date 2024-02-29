@@ -27,3 +27,31 @@ header h4 {
     margin-top: -20px;
     margin-bottom :-20px;
 }
+
+nav {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom:5px solid #6f6f6f;
+    padding: 10px;
+}
+
+nav h1 {
+    color:#717171;
+    font-family: 'playfair display', sans-serif;
+    font-size: 30px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 850px;
+}
+
+nav .onglets a {
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+    border-bottom:1px solid black;
+    padding-bottom:2px;
+}
