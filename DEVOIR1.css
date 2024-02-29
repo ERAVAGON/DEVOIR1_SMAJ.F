@@ -55,3 +55,34 @@ nav .onglets a {
     border-bottom:1px solid black;
     padding-bottom:2px;
 }
+
+.main {
+    margin-top:40px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.main .content .card {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .card .left {
+    flex:0 0 30%;
+    padding:40px;
+    background-color: black;
+    color:white;
+    height:100%;
+}
+
+.main .content .card.right {
+    flex: 0 0 70%;
+}
+
+.main .content .card .right img {
+    height:100%;
+    width:400px;
+}
