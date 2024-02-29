@@ -120,3 +120,49 @@ footer #contact {
     color:grey;
     vertical-align:middle;
 }
+
+@media screen and (max-width:600px) {
+
+    header{
+        height: 200PX;
+        width: 100%;
+        font-size: x-small;
+        }
+
+    header .logo {
+        width:80%;
+    }
+
+    header h1 {
+        font-size:large;
+    }
+
+    header h4 {
+        font-size:large;
+    }
+
+    nav .onglets{
+        margin-left:0px;
+        margin-bottom:10px; 
+    }
+    .main .card{
+        margin:10px;
+    }
+    .main .content .card .right img{
+        height:200px;
+        width:100%;
+        margin-top:0px;
+    }
+    .main .content .card {
+        display:block;
+    }
+    footer {
+        padding: 30px;
+    }
+    footer #contact {
+        margin: 50px;
+        text-align: center;
+    }
+
+}
+
