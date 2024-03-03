@@ -60,28 +60,34 @@ nav .onglets a {
 
 .main {
     margin-top:40px;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
-
-.main .content .card {
     display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
+    flex-direction:column;
+    align-items:center;    
 }
 
-.main .content .card .left {
+.main .content .card{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.main .content .card .right{
+    flex:0 0 40%;
     padding:40px;
     background-color: black;
     color:white;
-    height:100%;
+    height: 100%;
 }
 
-.main .content .card .right img {
-    height:100%;
-    width:400px;
+.main .content .card.left{
+    flex:0 0 60%;
+}
+
+.main .content .card .left img{
+    height:100%; 
+    width:500px;
+    margin-right: 10px;
 }
 
 footer {
@@ -150,7 +156,7 @@ footer #contact {
     .main .card{
         margin:10px;
     }
-    .main .content .card .right img{
+    .main .content .card .left img{
         height:200px;
         width:100%;
         margin-top:0px;
